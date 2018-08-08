@@ -1,4 +1,3 @@
-
 'use strict'; 
 
 // Get the user's name 
@@ -12,37 +11,45 @@ alert('Nice to have you here, ' + userName +' . I\'m going to ask you some fun q
 
 var answerOne = prompt('Do I have any pets?').toLowerCase();
 if (answerOne === 'y' || answerOne === 'yes') {
-    alert('That is correct! I have two cats.')
+    alert('That is correct! I have two cats named JiJi and Ren.')
 } else { 
-    alert('Sorry, you got it wrong!')
+    alert('Sorry, you got it wrong! I have two cats named JiJi and Ren.')
 
 }
-  }
 
   var answerTwo = prompt('Do I speak German?').toLowerCase();
-  if (answerOne === 'y' || answerOne === 'yes') {
-    alert('That is correct!') 
+  if (answerTwo === 'y' || answerTwo === 'yes') {
+    alert('Das ist Korrekt!') 
 }
  else {
-     alert('Ja, Ich Spreche Deutch!')
+     alert('Sorry, you got it wrong! Ich Spreche Deutch!')
 
 }
 
-if var answerThree = prompt('Have I lived in Florida?').toLowerCase(); 
-if (answerOne === 'n' || answerOne === 'no') {
-    alert('That is correct!')
-    else { 
-        alert('Nope, never have I lived there!')
+ var answerThree = prompt('Have I lived in Florida?').toLowerCase(); 
+if (answerThree === 'n' || answerThree === 'no') {
+    alert('That is correct! I have never lived there.');
+console.log('The user was asked if I lived in Florida. ');
+}else { 
+        alert('Sorry, you got it wrong! I have never lived in Florida and I don\'t think I ever will. I don\'t like humidity.');
     }
-if var answerFour = prompt('Do I think mushrooms are delicious?').toLowerCase();
-if (answerFour === 'n' || answerFour ==='no')
 
+var answerFour = prompt('Do I think mushrooms are delicious?').toLowerCase();
+if (answerFour === 'n' || answerFour ==='no') {
+    alert('That is correct, I think they\'re disgusting!');
 
-if var answerFive = prompt('Do I brew kombucha at home?').toLowerCase();
+} else {
+    alert('Heck, no!!!!!!!! Those things are disgusting!');
+}
+var answerFive = prompt('Do I brew kombucha at home?').toLowerCase(); 
+if (answerFive === 'y' || answerFive ==='yes') {
+    alert('That is correct...I also like to make pickles!');
+
+}else {
+    alert('Sorry, you got it wrong! I brew kombucha as a hobby. I also like to pickle things!');
+
+}
 
 
 // if (answerOne.toLowerCase() === 'y' || answerOne.toLowerCase() === 'yes') {
 alert('you got it right!');
-} else { 
-alert('FAIL');
-}
